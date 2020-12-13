@@ -657,7 +657,7 @@
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 280 } //E0 280 295
 #define DEFAULT_AXIS_STEPS_PER_UNIT \
-    { 100, 100, 400, 325 } //E0 280 295
+    { 80, 80, 80, 245 } //E0 280 295
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 800, 800, 3200, 1120 } //E0 280 295
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 1120 } //E0 280 295
 
@@ -952,7 +952,7 @@
 
 // Direction of endstops when homing; 1=MAX, -1=MIN
 // :[-1,1]
-#define X_HOME_DIR 1
+#define X_HOME_DIR -1
 #define Y_HOME_DIR -1
 #define Z_HOME_DIR -1
 
