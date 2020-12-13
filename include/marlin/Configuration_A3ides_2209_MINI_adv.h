@@ -1693,8 +1693,8 @@
 //#define SENSORLESS_PROBING // TMC2130 only
 
     #if EITHER(SENSORLESS_HOMING, SENSORLESS_PROBING)
-        #define X_STALL_SENSITIVITY 128
-        #define Y_STALL_SENSITIVITY 128
+        #define X_STALL_SENSITIVITY 8
+        #define Y_STALL_SENSITIVITY 8
     //#define Z_STALL_SENSITIVITY  8
     #endif
 
